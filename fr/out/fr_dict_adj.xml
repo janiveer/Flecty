@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Adjectifs en français</title>
+            <author>Wiktionary authors</author>
+            <editor>Wiktionary editors</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2016/04/01 00:13:00</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>
+               <link target="https://janiveer.github.io/flecty"/>
+            </distributor>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>
+               <title>DISCLAIMER</title>
+               <p>The linguistic data in this file is not guaranteed to be accurate or complete.</p>
+            </note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <link target="https://fr.wiktionary.org/wiki"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry n="aalandais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>aalandais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aalandaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aalandaises</orth>
+            </form>
+            <link target="https://fr.wiktionary.org/wiki/aalandais"/>
+         </entry>
+         <entry n="aalénien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aalénien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aaléniens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aalénienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aaléniennes</orth>
+            </form>
+         </entry>
+         <entry n="aaronais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>aaronais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aaronaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aaronaises</orth>
+            </form>
+         </entry>
+         <entry n="aastais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>aastais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aastaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aastaises</orth>
+            </form>
+         </entry>
+         <entry n="ababouiné">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>ababouiné</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>ababouinés</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>ababouinée</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>ababouinées</orth>
+            </form>
+         </entry>
+         <entry n="abactériémique">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abactériémique</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abactériémiques</orth>
+            </form>
+         </entry>
+         <entry n="abactérien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abactérien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abactériens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abactérienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abactériennes</orth>
+            </form>
+         </entry>
+         <entry n="abainvillois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abainvillois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abainvilloise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abainvilloises</orth>
+            </form>
+         </entry>
+         <entry n="abaissable">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaissable</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaissables</orth>
+            </form>
+         </entry>
+         <entry n="abaissant">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaissant</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaissants</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaissante</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaissantes</orth>
+            </form>
+         </entry>
+         <entry n="abaissé">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaissé</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaissés</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaissée</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaissées</orth>
+            </form>
+         </entry>
+         <entry n="abaisseur">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaisseur</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaisseurs</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaisseuse</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaisseuses</orth>
+            </form>
+         </entry>
+         <entry n="abaknon">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaknon</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaknons</orth>
+            </form>
+         </entry>
+         <entry n="abancourtois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abancourtois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abancourtoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abancourtoises</orth>
+            </form>
+         </entry>
+         <entry n="abandonnable">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abandonnable</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abandonnables</orth>
+            </form>
+         </entry>
+         <entry n="abandonné">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abandonné</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abandonnés</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abandonnée</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abandonnées</orth>
+            </form>
+         </entry>
+         <entry n="abandonnique">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abandonnique</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abandonniques</orth>
+            </form>
+         </entry>
+         <entry n="abarticulaire">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abarticulaire</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abarticulaires</orth>
+            </form>
+         </entry>
+         <entry n="abasourdi">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abasourdi</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abasourdis</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abasourdie</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abasourdies</orth>
+            </form>
+         </entry>
+         <entry n="abasourdissant">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abasourdissant</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abasourdissants</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abasourdissante</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abasourdissantes</orth>
+            </form>
+         </entry>
+         <entry n="abathudois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abathudois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abathudoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abathudoises</orth>
+            </form>
+         </entry>
+         <entry n="abatinois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abatinois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abatinoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abatinoises</orth>
+            </form>
+         </entry>
+         <entry n="abattable">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattable</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattables</orth>
+            </form>
+         </entry>
+         <entry n="abattant">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattant</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattants</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattante</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattantes</orth>
+            </form>
+         </entry>
+         <entry n="abattien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattiens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattiennes</orth>
+            </form>
+         </entry>
+         <entry n="abattu">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattu</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattus</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abattue</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abattues</orth>
+            </form>
+         </entry>
+         <entry n="abatutois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abatutois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abatutoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abatutoises</orth>
+            </form>
+         </entry>
+         <entry n="abaxial">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaxial</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaxiaux</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abaxiale</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abaxiales</orth>
+            </form>
+         </entry>
+         <entry n="abbanais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbanais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbanaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbanaises</orth>
+            </form>
+         </entry>
+         <entry n="abbarois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbarois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbaroise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbaroises</orth>
+            </form>
+         </entry>
+         <entry n="abbasside">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbasside</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbassides</orth>
+            </form>
+         </entry>
+         <entry n="abbatial">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbatial</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbatiaux</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbatiale</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbatiales</orth>
+            </form>
+         </entry>
+         <entry n="abbatien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbatien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbatiens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbatienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbatiennes</orth>
+            </form>
+         </entry>
+         <entry n="abbecourtois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbecourtois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbecourtoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbecourtoises</orth>
+            </form>
+         </entry>
+         <entry n="abbécourtois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbécourtois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbécourtoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbécourtoises</orth>
+            </form>
+         </entry>
+         <entry n="abbenanais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbenanais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbenanaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbenanaises</orth>
+            </form>
+         </entry>
+         <entry n="abbevillien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbevillien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbevilliens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbevillienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbevilliennes</orth>
+            </form>
+         </entry>
+         <entry n="abbevillois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbevillois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbevilloise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbevilloises</orth>
+            </form>
+         </entry>
+         <entry n="abbévillois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abbévillois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abbévilloise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abbévilloises</orth>
+            </form>
+         </entry>
+         <entry n="abcédé">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abcédé</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abcédés</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abcédée</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abcédées</orth>
+            </form>
+         </entry>
+         <entry n="abdicataire">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abdicataire</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abdicataires</orth>
+            </form>
+         </entry>
+         <entry n="abdominal">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abdominal</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abdominaux</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abdominale</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abdominales</orth>
+            </form>
+         </entry>
+         <entry n="abducteur">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abducteur</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abducteurs</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abductrice</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abductrices</orth>
+            </form>
+         </entry>
+         <entry n="abductif">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abductif</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abductifs</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abductive</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abductives</orth>
+            </form>
+         </entry>
+         <entry n="abécédaire">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abécédaire</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abécédaires</orth>
+            </form>
+         </entry>
+         <entry n="abeilhanais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abeilhanais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeilhanaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeilhanaises</orth>
+            </form>
+         </entry>
+         <entry n="abeillé">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeillé</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeillés</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeillée</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeillées</orth>
+            </form>
+         </entry>
+         <entry n="abeiller">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeiller</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeillers</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeillère</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeillères</orth>
+            </form>
+         </entry>
+         <entry n="abeillier">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeillier</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeilliers</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abeillière</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abeillières</orth>
+            </form>
+         </entry>
+         <entry n="abelcourtois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abelcourtois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abelcourtoise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abelcourtoises</orth>
+            </form>
+         </entry>
+         <entry n="abélien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abélien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abéliens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abélienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abéliennes</orth>
+            </form>
+         </entry>
+         <entry n="abéliste">
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abéliste</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abélistes</orth>
+            </form>
+         </entry>
+         <entry n="abénakis">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abénakis</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abénakise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abénakises</orth>
+            </form>
+         </entry>
+         <entry n="abénaqui">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abénaqui</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abénaquis</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abénaquise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abénaquises</orth>
+            </form>
+         </entry>
+         <entry n="abénaquis">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abénaquis</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abénaquise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abénaquises</orth>
+            </form>
+         </entry>
+         <entry n="abengourois">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abengourois</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abengouroise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abengouroises</orth>
+            </form>
+         </entry>
+         <entry n="aberdonien">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aberdonien</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aberdoniens</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>aberdonienne</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>aberdoniennes</orth>
+            </form>
+         </entry>
+         <entry n="abergementais">
+            <form>
+               <gramGrp>
+                  <gen value="m"/>
+                  <number value="sg pl"/>
+               </gramGrp>
+               <orth>abergementais</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="sg"/>
+               </gramGrp>
+               <orth>abergementaise</orth>
+            </form>
+            <form>
+               <gramGrp>
+                  <gen value="f"/>
+                  <number value="pl"/>
+               </gramGrp>
+               <orth>abergementaises</orth>
+            </form>
+         </entry>
+      </body>
+   </text>
+</TEI>
