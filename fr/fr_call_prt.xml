@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+
+	<comment>Conjugaison en français</comment>
+	<entry key="NS">100</entry>
+	<entry key="API">https://fr.wiktionary.org/w/api.php?action=query&amp;format=xml&amp;list=categorymembers&amp;cmlimit=500&amp;cmtitle=Cat%C3%A9gorie:Conjugaison_en_fran%C3%A7ais</entry>
+
+</properties>
