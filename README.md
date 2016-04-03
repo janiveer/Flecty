@@ -60,27 +60,27 @@ Before you can run Flecty to generate a new dictionary for a category of words i
 
   I’ve stored each of my API call files in the folder for their target language. I’ve named them using the convention **und_call_cat.xml**, where _und_ is the ISO language code of the target language, and _cat_ is an abbreviation representing the category of words to be mined.
 
-  The API call file should start with a '<comment>' element. The content of this will ultimately be used as the title of the dictionary. The convention I've used is that it should name the language and category of the words in the output dictionary, in the target language, e.g. _Adjectifs en français_.
+  The API call file should start with a `<comment>` element. The content of this will ultimately be used as the title of the dictionary. The convention I’ve used is that it should name the language and category of the words in the output dictionary, in the target language, e.g. _Adjectifs en français_.
 
-  The API call file must contain an '<entry>' element with the 'key' attribute set to 'API'. This contains the API call used to get the list of words that will be mined. The API call should typically contain the following parameters:
+  The API call file must contain an `<entry>` element with the `key` attribute set to `API`. This contains the API call used to get the list of words that will be mined. The API call should typically contain the following parameters:
 
-    'action=query' — common to most Wikimedia API calls;
+    `action=query` — common to most Wikimedia API calls;
 
-    'format=xml' — because we’re going to transform the results using XSLT;
+    `format=xml` — because we’re going to transform the results using XSLT;
 
-    'list=categorymembers'
+    `list=categorymembers`
 
-    'cmlimit=500' — the maximum that can be returned at a time;
+    `cmlimit=500` — the maximum that can be returned at a time;
 
-    'cmtitle=CATEGORY' — where 'CATEGORY' is the category of words that you want to include in the dictionary, e.g. 'Cat%C3%A9gorie:Adjectifs_en_fran%C3%A7ais'. You’ll need to examine the Wiktionary for your chosen language to see the exact name of the category that you want.
+    `cmtitle=Category` — where _Category_ is the category of words that you want to include in the dictionary, e.g. `Cat%C3%A9gorie:Adjectifs_en_fran%C3%A7ais`. You’ll need to examine the Wiktionary for your chosen language to see the exact name of the category that you want.
 
-  The API call must be a valid XML text node, i.e. ampersands should be escaped as '&amp;'. For more information on Wikimedia API calls, see the [MediaWiki API help](https://en.wiktionary.org/w/api.php).
+  The API call must be a valid XML text node, i.e. ampersands should be escaped as `&amp;`. For more information on Wikimedia API calls, see the [MediaWiki API help](https://en.wiktionary.org/w/api.php).
 
-  The API call file must also contain an '<entry>' element with the 'key' attribute set to 'NS'. This contains a namespace number, which is used to select the precise type of word returned by the API call.
+  The API call file must also contain an `<entry>` element with the `key` attribute set to `NS`. This contains a namespace number, which is used to select the precise type of word returned by the API call.
 
   The API call files are used by a common transformation file called **Miner.xsl**, which is located in the root folder of the project. This executes the API call and writes the list of results to a word list file. If there are more than 500 responses from the API call, **Miner.xsl** recurses through each of the continuation API calls necessary to fetch the rest of the data.
 
-  The word list file — the output of the API call — is another XML Java properties file. This again contains a '<comment>' element containing the ultimate title of this dictionary. Each '<entry>' element has a 'key' attribute containing the unique ID number of the entry on Wiktionary, and contains the title of its Wiktionary page.
+  The word list file — the output of the API call — is another XML Java properties file. This again contains a `<comment>` element containing the ultimate title of this dictionary. Each `<entry>` element has a `key` attribute containing the unique ID number of the entry on Wiktionary, and contains the title of its Wiktionary page.
 
   I store the word list files in the **data** subfolder within the folder for their target language. I’ve named them using the convention **und_list_cat.xml**, where _und_ is the ISO language code of the target language, and _cat_ is an abbreviation representing the category of words to be mined.
 
