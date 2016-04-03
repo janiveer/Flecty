@@ -96,7 +96,7 @@ Before you can run Flecty to generate a new dictionary for a category of words i
 
 In these examples, _und_ is the ISO language code of the language whose Wiktionary you are mining, e.g. **fr** for French; and _cat_ is an abbreviation representing the category of words whose inflectional morphology you are mining, e.g. **adj** for adjectives.
 
-1. Query the Wiktionary API to generate a list of words in a particular category:
+Step 1: Query the Wiktionary API to generate a list of words in a particular category:
 
 <pre>
 	java com.icl.saxon.StyleSheet -o <i>und</i>/data/<i>und</i>_list_<i>cat</i>.xml \
@@ -104,9 +104,9 @@ In these examples, _und_ is the ISO language code of the language whose Wiktiona
 	                              Miner.xsl
 </pre>
 
-   The list of words is stored in the **data** folder for this language.
+The list of words is stored in the **data** folder for this language.
 
-2. Scrape the Wiktionary entry for each word in turn to find the infectional morphology:
+Step 2: Scrape the Wiktionary entry for each word in turn to find the infectional morphology:
 
 <pre>
 	java com.icl.saxon.StyleSheet -o <i>und</i>/out/<i>und</i>_dict_<i>cat</i>.xml \
@@ -114,7 +114,7 @@ In these examples, _und_ is the ISO language code of the language whose Wiktiona
 	                              <i>und</i>/<i>und</i>_scrape_<i>cat</i>.xsl \
 </pre>
 
-   The dictionary is stored in the **out** folder for this language.
+The dictionary is stored in the **out** folder for this language.
 
 ### Licence
 
