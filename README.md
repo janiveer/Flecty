@@ -98,17 +98,21 @@ In these examples, _und_ is the ISO language code of the language whose Wiktiona
 
 1. Query the Wiktionary API to generate a list of words in a particular category:
 
-	java com.icl.saxon.StyleSheet -o und/data/und_list_cat.xml \
-	                              und/und_call_cat.xml \
+<pre>
+	java com.icl.saxon.StyleSheet -o <i>und</i>/data/<i>und</i>_list_<i>cat</i>.xml \
+	                              <i>und</i>/<i>und</i>_call_<i>cat</i>.xml \
 	                              Miner.xsl
+</pre>
 
    The list of words is stored in the **data** folder for this language.
 
 2. Scrape the Wiktionary entry for each word in turn to find the infectional morphology:
 
-	java com.icl.saxon.StyleSheet -o und/out/und_dict_cat.xml \
-	                              und/data/und_list_cat.xml \
-	                              und/und_scrape_cat.xsl \
+<pre>
+	java com.icl.saxon.StyleSheet -o <i>und</i>/out/<i>und</i>_dict_<i>cat</i>.xml \
+	                              <i>und</i>/data/<i>und</i>_list_<i>cat</i>.xml \
+	                              <i>und</i>/<i>und</i>_scrape_<i>cat</i>.xsl \
+</pre>
 
    The dictionary is stored in the **out** folder for this language.
 
