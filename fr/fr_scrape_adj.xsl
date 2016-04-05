@@ -26,9 +26,8 @@
                 exclude-result-prefixes="tei date"
                 version="1.0">
 
-	<xsl:output indent="yes"/>
-	<xsl:param name="wiki" select="'https://fr.wiktionary.org/wiki'"/>
 	<xsl:import href="../Scraper.xsl"/>
+	<xsl:param name="wiki" select="'https://fr.wiktionary.org/wiki'"/>
 
 	<xsl:template match="div" mode="entry">
 		<xsl:param name="lemma"/>
