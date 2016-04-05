@@ -9,7 +9,9 @@
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2016-04-04 16:00:21+01:00</date>
+               <title>Test Run 2</title>
+               <date>2016-04-04</date>
+               <time>16:00:21+01:00</time>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -24,6 +26,10 @@
             <note>
                <title>DISCLAIMER</title>
                <p>The linguistic data in this file is not guaranteed to be accurate or complete.</p>
+            </note>
+            <note>
+               <title>Acknowledgements</title>
+               <p>Thanks to the contributors and editors of Wiktionary for the linguistic data. Each entry within this dictionary contains a link back to the Wiktionary page from which the linguistic data was mined. Please see those linked Wiktionary pages for details of the authors who wrote and edited the original data.</p>
             </note>
          </notesStmt>
          <sourceDesc>

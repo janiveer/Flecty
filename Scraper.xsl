@@ -54,9 +54,10 @@
 						<edition>
 							<date>
 								<xsl:value-of select="date:date()"/>
-								<xsl:text> </xsl:text>
-								<xsl:value-of select="date:time()"/>
 							</date>
+              <time>
+								<xsl:value-of select="date:time()"/>
+              </time>
 						</edition>
 					</editionStmt>
 					<publicationStmt>
@@ -72,6 +73,10 @@
 							<title>DISCLAIMER</title>
 							<p>The linguistic data in this file is not guaranteed to be accurate or complete.</p>
 						</note>
+            <note>
+              <title>Acknowledgements</title>
+              <p>Thanks to the contributors and editors of Wiktionary for the linguistic data. Each entry within this dictionary contains a link back to the Wiktionary page from which the linguistic data was mined. Please see those linked Wiktionary pages for details of the authors who wrote and edited the original data.</p>
+            </note>
 					</notesStmt>
 					<sourceDesc>
 						<bibl>
