@@ -30,6 +30,16 @@
 	<xsl:param name="wiki" select="'https://en.wiktionary.org/wiki'"/>
 
 	<xsl:template match="properties">
+    <xsl:if test="entry[@key='NS']">
+      <xsl:message terminate="yes">
+        <xsl:text>NS key found. Are you sure this is a word list file?</xsl:text>
+      </xsl:message>
+    </xsl:if>
+    <xsl:if test="entry[@key='API']">
+      <xsl:message terminate="yes">
+        <xsl:text>API key found. Are you sure this is a word list file?</xsl:text>
+      </xsl:message>
+    </xsl:if>
 		<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
 			<teiHeader>
 				<fileDesc>

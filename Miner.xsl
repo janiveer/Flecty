@@ -5,17 +5,17 @@
 
      This file is part of Flecty.
 
-     Flecty is free software: you can redistribute it and/or modify it under 
-     the terms of the GNU Lesser General Public License as published by the 
-     Free Software Foundation, either version 3 of the License, or (at your 
+     Flecty is free software: you can redistribute it and/or modify it under
+     the terms of the GNU Lesser General Public License as published by the
+     Free Software Foundation, either version 3 of the License, or (at your
      option) any later version.
 
-     Flecty is distributed in the hope that it will be useful, but WITHOUT ANY 
-     WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
-     FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for 
+     Flecty is distributed in the hope that it will be useful, but WITHOUT ANY
+     WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+     FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
      more details.
 
-     You should have received a copy of the GNU Lesser General Public License 
+     You should have received a copy of the GNU Lesser General Public License
      along with Flecty. If not, see http://www.gnu.org/licenses/.
 -->
 
@@ -25,6 +25,16 @@
 	<xsl:output indent="yes" doctype-system="http://java.sun.com/dtd/properties.dtd"/>
 
 	<xsl:template match="properties">
+    <xsl:if test="not(entry[@key='NS'])">
+      <xsl:message terminate="yes">
+        <xsl:text>NS key not found. Are you sure this is an API call file?</xsl:text>
+      </xsl:message>
+    </xsl:if>
+    <xsl:if test="not(entry[@key='API'])">
+      <xsl:message terminate="yes">
+        <xsl:text>API key not found. Are you sure this is an API call file?</xsl:text>
+      </xsl:message>
+    </xsl:if>
 		<xsl:variable name="ns"     select="entry[@key='NS']"/>
 		<xsl:variable name="uri"    select="entry[@key='API']"/>
 		<xsl:variable name="result" select="document($uri)"/>
