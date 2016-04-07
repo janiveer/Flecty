@@ -84,7 +84,7 @@
             <bibl>
               <link>
                 <xsl:attribute name="target">
-                  <xsl:value-of select="$wiki"/>
+                  <xsl:value-of select="$link"/>
                 </xsl:attribute>
               </link>
             </bibl>
