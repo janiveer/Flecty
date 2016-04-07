@@ -27,7 +27,8 @@
                 version="1.0">
 
   <xsl:import href="../Scraper.xsl"/>
-  <xsl:param name="wiki" select="'https://fr.wiktionary.org/wiki'"/>
+  <xsl:param name="link" select="'https://fr.wiktionary.org/wiki'"/>
+  <xsl:param name="wiki" select="'http://localhost:8080/wiktionary_fr_all_nopic_2015-11/A'"/>
 
   <xsl:template match="div" mode="entry">
     <xsl:param name="lemma"/>
@@ -52,7 +53,7 @@
       <xsl:apply-templates select="descendant::tr" mode="entry"/>
       <link>
         <xsl:attribute name="target">
-          <xsl:value-of select="concat($wiki, '/', $lemma)"/>
+          <xsl:value-of select="concat($link, '/', $lemma)"/>
         </xsl:attribute>
       </link>
     </entry>

@@ -28,6 +28,8 @@
 
   <xsl:output indent="yes"/>
   <xsl:param name="wiki" select="'https://en.wiktionary.org/wiki'"/>
+  <xsl:param name="link" select="'https://en.wiktionary.org/wiki'"/>
+  <xsl:param name="ext" select="''"/>
 
   <xsl:template match="properties">
     <xsl:if test="entry[@key='NS']">
@@ -103,7 +105,7 @@
 
   <xsl:template match="entry">
     <xsl:variable name="lemma" select="text()"/>
-    <xsl:variable name="uri" select="concat($wiki, '/', $lemma)"/>
+    <xsl:variable name="uri" select="concat($wiki, '/', $lemma, $ext)"/>
     <xsl:variable name="result" select="document($uri)"/>
     <xsl:message terminate="no">
       <xsl:value-of select="$lemma"/>

@@ -33,9 +33,9 @@ I’ve also released the Flecty software used to create the dictionaries, in cas
 
 ### Prerequisites
 
-To run Flecty, you need an XSLT processor compatible with [XSLT 1.0 or
-1.1](http://www.w3.org/TR/xslt) and [eXSLT](http://exslt.org/). Flecty works with [Saxon
-6.5.5](http://saxon.sourceforge.net/saxon6.5.5/) but does _not_ work with [XSLTProc](http://xmlsoft.org/libxslt/); I haven’t yet worked out why this is.
+To run Flecty, you need an XSLT processor compatible with [XSLT 1.0 or 1.1](http://www.w3.org/TR/xslt) and [eXSLT](http://exslt.org/). Flecty works with [Saxon 6.5.5](http://saxon.sourceforge.net/saxon6.5.5/) but does _not_ work with [XSLTProc](http://xmlsoft.org/libxslt/); I haven’t yet worked out why this is.
+
+To avoid overloading Wiktionary’s servers, you will also need an offline Wiktionary of some kind. I’m currently investigating [Kiwix](http://www.kiwix.org/) and [XOWA](https://gnosygnu.github.io/xowa/).
 
 ### Installation
 
@@ -46,11 +46,11 @@ choice.
 
 Each category of words (adjectives, participles, etc.) in each language has a different inflectional paradigm, and therefore requires slightly different markup in the syntactic dictionary. Therefore, it’s easiest to mine each category of words in each language separately. That’s why each category of words in each language is stored in a different file.
 
-Mining Wiktionary is a two-stage process: first, we get a list of all words in a particular category; second, we access each word in turn and get the inflectional morphology. The first step can be done fairly easily using the Wiktionary API. The second step is harder, however. Querying the API for a particular page gives the wiki markup for that page, rather than the HTML that is served to the web. Inflectional paradigms are stored in the wiki markup as wiki templates. And, as described above, each language has different templates for each category of words. It may well be possible to query the API for each inflectional template and build a complete paradigm for each word. However, I decided it would be easier to scrape the HTML source of the page for each word.
+Mining Wiktionary is a two-stage process: first, we get a list of all words in a particular category; second, we access each word in turn and get the inflectional morphology. The first step can be done fairly easily using the Wiktionary API. The second step is harder, however. Querying the API for a particular page gives the wiki markup for that page, rather than the HTML that is served to the web. Inflectional paradigms are stored in the wiki markup as wiki templates. And, as described above, each language has different templates for each category of words. It may well be possible to query the API for each inflectional template and build a complete paradigm for each word. However, I decided it would be easier to scrape the HTML source of the page for each word using offline copies of Wiktionary.
 
 The HTML source is parsable as XHTML 5, i.e. it has fully closed tags. I use XSLT to scrape the HTML source for each Witionary entry, since the input is (effectively) XML and I’m transforming it to get XML output.
 
-The English Wiktionary contains many thousands of words from other languages. However the Wiktionary for each particular language contains words in that language which the English Wiktionary doesn’t. So, when I’m creating the dictionary for a selected language, I mine the Wiktionary for that language.
+The English Wiktionary contains many thousands of words from other languages. However the Wiktionary for each particular language contains words in that language which the English Wiktionary doesn’t. So, when I’m creating the dictionary for a selected language, I mine the offline Wiktionary for that language.
 
 ### Preparation
 
@@ -92,13 +92,13 @@ This is an [XML Java Properties](http://docs.oracle.com/javase/7/docs/api/java/u
 
 #### Transformation File
 
-This is an XSLT transformation which looks at each of the specified pages on Wiktionary in turn, takes the HTML source of each page, finds the inflectional morphology, and transforms it into machine-readable TEI output.
+This is an XSLT transformation which looks at each of the specified pages in your offline Wiktionary in turn, takes the HTML source of each page, finds the inflectional morphology, and transforms it into machine-readable TEI output.
 
 * I’ve stored each of my transformation files in the folder for its target language. I’ve named them using the convention **und_scrape_cat.xsl**, where _und_ is the ISO language code of the target language and _cat_ is an abbreviation representing the category of words to be mined.
 
 * Needless to say, writing this file is the tricky bit. You’ll need a basic understanding of the inflectional morphology of this category of words in this particular language. You’ll need to examine the HTML source of several Wiktionary pages for this category of words in this particular language, to see how the inflectional morphology is encoded. You’ll also need a good knowledge of XSLT and TEI to write the transformations. Unfortunately, this goes way beyond the scope of this file. For now, I can only suggest looking at the existing transformations for help.
 
-* The transformation files all import a common transformation file called **Scraper.xsl**, which is located in the root folder of the project. This writes the TEI metadata for the output dictionary and handles the process of opening each of the specified pages on Wiktionary in turn.
+* The transformation files all import a common transformation file called **Scraper.xsl**, which is located in the root folder of the project. This writes the TEI metadata for the output dictionary and handles the process of opening each of the specified pages in your offline Wiktionary in turn.
 
 ### Running
 
