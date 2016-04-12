@@ -28,7 +28,7 @@
 
   <xsl:import href="../Scraper.xsl"/>
   <xsl:param name="link" select="'https://fr.wiktionary.org/wiki'"/>
-  <xsl:param name="wiki" select="'http://localhost:8080/wiktionary_fr_all_nopic_2015-11/A'"/>
+  <xsl:param name="wiki" select="'http://localhost:8080/fr.wiktionary.org/wiki'"/>
 
   <xsl:template match="div" mode="entry">
     <xsl:param name="lemma"/>
