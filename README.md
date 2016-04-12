@@ -33,7 +33,7 @@ I’ve also released the Flecty software used to create the dictionaries, in cas
 
 ### Prerequisites
 
-To run Flecty, you need an XSLT processor compatible with [XSLT 1.0 or 1.1](http://www.w3.org/TR/xslt) and [eXSLT](http://exslt.org/). Flecty works with [Saxon 6.5.5](http://saxon.sourceforge.net/saxon6.5.5/) but does _not_ work with [XSLTProc](http://xmlsoft.org/libxslt/); I haven’t yet worked out why this is.
+To run Flecty, you need an XSLT processor compatible with [XSLT 1.0 or 1.1](http://www.w3.org/TR/xslt) and [eXSLT](http://exslt.org/). Flecty works with [Saxon 6.5.5](http://saxon.sourceforge.net/saxon6.5.5/) and requires the `-u` option (`Names are URLs not filenames`). It but does _not_ work with [XSLTProc](http://xmlsoft.org/libxslt/).
 
 To avoid overloading Wiktionary’s servers, you will also need an offline Wiktionary of some kind. I’m currently investigating [Kiwix](http://www.kiwix.org/) and [XOWA](https://gnosygnu.github.io/xowa/).
 
@@ -108,6 +108,7 @@ Step 1: Query the Wiktionary API to generate a list of words in a particular cat
 
 <pre>
 	java com.icl.saxon.StyleSheet -o <i>und</i>/data/<i>und</i>_list_<i>cat</i>.xml \
+	                              -u \
 	                              <i>und</i>/<i>und</i>_call_<i>cat</i>.xml \
 	                              Miner.xsl
 </pre>
