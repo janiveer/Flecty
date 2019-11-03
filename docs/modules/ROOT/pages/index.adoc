@@ -1,4 +1,6 @@
 = Flecty
+Simon Dew <janiveer@users.noreply.github.com>
+v1.0, 2019-11-03
 
 Flecty is a project to mine https://www.wiktionary.org/[Wiktionary] to
 create machine-readable morphosyntactic dictionaries.
