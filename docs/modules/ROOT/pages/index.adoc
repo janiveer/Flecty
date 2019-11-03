@@ -1,7 +1,6 @@
 = Flecty
 
-[.lead]
-{page-version} | {docdatetime}
+[small]#Version {page-version} | {docdatetime}#
 
 Flecty is a project to mine https://www.wiktionary.org/[Wiktionary] to
 create machine-readable morphosyntactic dictionaries.
