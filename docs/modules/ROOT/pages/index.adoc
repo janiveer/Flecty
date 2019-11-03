@@ -1,12 +1,12 @@
 = Flecty
 
+****
+Version {page-version}
+****
+
 Flecty is a project to mine https://www.wiktionary.org/[Wiktionary] to
 create machine-readable morphosyntactic dictionaries.
 
 The dictionaries are intended for use in computational linguistics,
 e.g. natural language processing, machine assisted translation, natural
 language production, etc.
-
-****
-Version {page-version} | {docdatetime}
-****
