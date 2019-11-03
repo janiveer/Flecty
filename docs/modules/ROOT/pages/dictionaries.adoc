@@ -7,6 +7,8 @@ http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.html[dictionaries
 module] of the http://www.tei-c.org[Text Encoding Initiative]. More will
 become available as the project continues.
 
+image::TEI-600.jpg[TEI -- Text Encoding Initiative]
+
 == Description
 
 Each dictionary contains _only_ inflectional morphology. I’m not
