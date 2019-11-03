@@ -1,0 +1,3 @@
+.Flecty
+* xref:ROOT:dictionaries.adoc[Dictionaries]
+* xref:ROOT:software.adoc[Software]

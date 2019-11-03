@@ -1,0 +1,5 @@
+name: flecty
+title: Flecty
+version: v1
+nav:
+- modules/ROOT/nav.adoc
