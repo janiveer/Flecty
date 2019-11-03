@@ -1,3 +1,2 @@
-* xref::index.adoc[Flecty]
-** xref::dictionaries.adoc[Dictionaries]
-** xref::software.adoc[Software]
+* xref::dictionaries.adoc[Dictionaries]
+* xref::software.adoc[Software]
