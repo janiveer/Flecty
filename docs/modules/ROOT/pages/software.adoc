@@ -48,7 +48,7 @@ Before you can run Flecty to generate a new dictionary for a category of words i
 === API Call File
 
 This is an http://docs.oracle.com/javase/7/docs/api/java/util/Properties.html[XML Java Properties] file.
-include::antora-demo::partial$xml-java-props.adoc[]
+include::master@antora-demo::partial$xml-java-props.adoc[]
 
 * I’ve stored each of my API call files in the folder for their target language.
 I’ve named them using the convention *und_call_cat.xml*, where _und_ is the ISO language code of the target language, and _cat_ is an abbreviation representing the category of words to be mined.
